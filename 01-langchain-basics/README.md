@@ -145,5 +145,5 @@ Si aparece el error ERR-902, debes reiniciar el servicio de caché Valkey antes 
 | **Vector Store** | `FAISS.from_documents` con `GoogleGenerativeAIEmbeddings` |
 | **Sparse Retrieval** | `BM25Retriever.from_documents` |
 | **Re-Ranking** | `CohereRerank(model="rerank-multilingual-v3.0", top_n=2)` |
-| **Orquestación LCEL** | Uso de operadores `|` y `RunnableLambda` para el flujo de datos |
+| **Orquestación LCEL** | Uso de operadores `&#124;` y `RunnableLambda` para el flujo de datos |
 | **Logging & Redirección** | Captura de `sys.stderr` y `logging.captureWarnings(True)` |
