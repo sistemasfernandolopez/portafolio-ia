@@ -1,0 +1,15 @@
+# Core de LangChain y divisores de texto
+langchain-core==1.6.2
+langchain-community==0.4.2
+langchain-text-splitters==1.1.2
+
+# Integraciones de modelos y re-ranking
+langchain-google-genai==4.4.0
+langchain-cohere==0.6.0
+
+# Motores de búsqueda vectorial y léxica
+faiss-cpu==1.15.0
+rank-bm25==0.2.2
+
+# Gestión de variables de entorno
+python-dotenv==1.2.3
