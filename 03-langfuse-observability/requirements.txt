@@ -1,0 +1,20 @@
+# Ecosistema LangChain y LangGraph
+langchain==0.3.12
+langchain-core==0.3.25
+langchain-community==0.3.12
+langchain-text-splitters==0.3.3
+langgraph==0.2.60
+
+# Observabilidad
+langfuse==2.53.0
+
+# Integraciones de LLMs y Re-ranking
+langchain-google-genai==2.0.7
+langchain-cohere==0.3.3
+
+# Búsqueda vectorial y léxica
+faiss-cpu==1.9.0
+rank-bm25==0.2.2
+
+# Utilidades
+python-dotenv==1.0.1
