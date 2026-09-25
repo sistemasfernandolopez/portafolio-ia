@@ -125,10 +125,8 @@ python main.py
 Demostración del flujo completo de consulta técnica RAG y activación de la caja de intervención humana en vivo (HITL) dentro de la misma pestaña ante falta de contexto.
 
 <div align="center">
-  <video src="assets/Consulta.mp4" controls="controls" width="100%" style="max-height: 500px;"></video>
+  <img src="assets/Consulta.gif" alt="Demostración de Soporte IT e Intervención Humana" width="100%">
 </div>
-
-> 🎬 **Archivo de vídeo:** [assets/Consulta.mp4](assets/Consulta.mp4)
 
 ---
 
@@ -136,10 +134,8 @@ Demostración del flujo completo de consulta técnica RAG y activación de la ca
 Demostración de la ejecución del escuadrón de CrewAI resolviendo dudas de investigación en la web e indexando automáticamente los datos generados en el vectorstore (FAISS + BM25).
 
 <div align="center">
-  <video src="assets/Investigación_e_Ingesta.mp4" controls="controls" width="100%" style="max-height: 500px;"></video>
+  <img src="assets/Investigacion.gif" alt="Demostración de Investigación Externa e Ingesta" width="100%">
 </div>
-
-> 🎬 **Archivo de vídeo:** [assets/Investigación e Ingesta.mp4](assets/Investigación_e_Ingesta.mp4)
 
 ---
 
