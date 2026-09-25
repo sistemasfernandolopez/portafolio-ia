@@ -2,6 +2,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![uv](https://img.shields.io/badge/uv-Package_Manager-DE5B8B?style=flat&logo=python&logoColor=white)](https://github.com/astral-sh/uv)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Gradio](https://img.shields.io/badge/Gradio-UI_Framework-FF5500?style=flat&logo=gradio&logoColor=white)](https://www.gradio.app/)
 [![LangChain](https://img.shields.io/badge/LangChain-v0.3+-121011?style=flat)](https://www.langchain.com/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Stateful_Agents-FF6F61?style=flat)](https://www.langchain.com/langgraph)
 [![CrewAI](https://img.shields.io/badge/CrewAI-Multi--Agent_Framework-FF4B4B?style=flat)](https://www.crewai.com/)
@@ -24,6 +26,7 @@ Actualmente, el portafolio cuenta con los siguientes módulos implementados:
 | **[02-langgraph-workflows](./02-langgraph-workflows)** | Agente RAG Auto-Correctivo (CRAG) con Búsqueda Híbrida, Re-Ranking, evaluación estricta de contexto y Human-In-The-Loop (HITL). | LangGraph, LangChain, FAISS, BM25, Cohere Rerank, Gemini, uv |
 | **[03-langfuse-observability](./03-langfuse-observability)** | Observabilidad en tiempo real y LLMOps sobre Agente CRAG en LangGraph. Traza jerárquica de ejecuciones, métricas de latencia, costes y auditoría de prompts. | Langfuse, LangGraph, LangChain, FAISS, Cohere Rerank, Gemini, uv |
 | **[04-crewai-multiagents](./04-crewai-multiagents)** | Sistema Multi-Agente autónomo para investigación web en tiempo real y redacción periodística automatizada de tecnología. | CrewAI, Gemini 3.1 Flash Lite, DuckDuckGo (ddgs), uv, Python |
+| **[05-enterprise-it-copilot](./05-enterprise-it-copilot)** | Plataforma unificada de Soporte IT (OpsCenter) con CRAG Híbrido, HITL en vivo, Observabilidad LLMOps y escuadrón CrewAI con auto-ingesta. | FastAPI, Gradio, LangGraph, CrewAI, Langfuse, Cohere Rerank, FAISS, Gemini |
 
 ---
 
@@ -78,6 +81,19 @@ Arquitectura multi-agente autónoma orientada al rastreo de información tecnol�
 * **Generación de Artefactos:** Exportación automatizada del informe final validado en un archivo Markdown estructurado y captura de trazas completas de consola.
 
 👉 *Para ver el diagrama de arquitectura, la animación de la terminal y los resultados, consulta el [`README.md` del módulo](./04-crewai-multiagents/README.md).*
+
+---
+
+### [05. Enterprise IT Support & Knowledge Operations Center (OpsAI Copilot)](./05-enterprise-it-copilot)
+
+Plataforma unificada de grado empresarial que consolida las mejores prácticas de RAG Híbrido, flujos de trabajo guiados por grafos, intervención humana en directo, monitoreo LLMOps y agencias autónomas.
+
+* **Servidor Unificado OpsCenter:** Despliegue sobre **FastAPI** montando de manera nativa la interfaz gráfica de **Gradio**, exponiendo tanto endpoints REST documentados (`/docs`) como una UI interactiva en una sola aplicación.
+* **CRAG con Intervención Humana (HITL) Dinámica:** Grafo en **LangGraph** con Búsqueda Híbrida (**BM25** + **FAISS** + **Cohere Rerank**). Si el sistema no halla contexto suficiente, detiene el flujo (`interrupt_before`) y habilita una caja de reformulación en tiempo real en la propia pestaña del chat.
+* **Escuadrón Multi-Agente e Ingesta en Caliente:** Integración de **CrewAI** para investigar incidentes no documentados en la web e indexar los informes producidos directamente en la base de conocimientos viva sin reiniciar el servidor.
+* **Observabilidad LLMOps Completa:** Telemetría centralizada con **Langfuse** para monitorear la latencia de cada nodo, la evaluación estricta de contexto y el control presupuestario por sesión.
+
+👉 *Para ver el diagrama de arquitectura completo, las demostraciones en vídeo y los pasos de instalación, consulta el [`README.md` del módulo](./05-enterprise-it-copilot/README.md).*
 
 ---
 

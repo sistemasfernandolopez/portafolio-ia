@@ -1,0 +1,28 @@
+# --- Núcleo y Modelo de Datos ---
+python-dotenv==1.0.1
+pydantic==2.8.2
+
+# --- Web Framework & UI ---
+fastapi==0.111.1
+uvicorn==0.30.3
+gradio>=4.44.0
+huggingface-hub<0.25.0
+
+# --- Ecosistema LangChain (Ecosistema 0.3.x) ---
+langchain>=0.3.0,<0.4.0
+langchain-core>=0.3.0,<0.4.0
+langchain-community>=0.3.0,<0.4.0
+langchain-google-genai>=2.0.0
+langchain-cohere>=0.3.0
+
+# --- Orquestación y LLMOps ---
+langgraph>=0.2.0
+langfuse>=2.42.1
+
+# --- Agentes & Búsqueda ---
+crewai[google-genai]
+duckduckgo-search>=6.2.0
+
+# --- Vectorstores y Algoritmos de Búsqueda ---
+faiss-cpu>=1.8.0
+rank-bm25>=0.2.2
